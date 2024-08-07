@@ -1,0 +1,39 @@
+# Node modules directory
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Tailwind output files
+dist/
+public/css/
+
+# PostCSS cache
+.pnp/
+.pnp.js
+.cache/
+
+# Environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tailwind configuration file (if you want to keep it local)
+# Uncomment the next line if you prefer to exclude it
+# tailwind.config.js
+
+# Build directories
+build/
+out/
+
+# Miscellaneous
+.vscode/
+.idea/
