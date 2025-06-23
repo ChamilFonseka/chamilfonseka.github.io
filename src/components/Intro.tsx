@@ -2,7 +2,7 @@ import { FaEnvelope, FaLinkedin, FaPhone, FaLocationDot } from "react-icons/fa6"
 
 const Intro = () => {
     return (
-        <header>
+        <section>
             <h1>Chamil Fonseka</h1>
             <h2>Tech Lead</h2>
             <ul>
@@ -34,7 +34,7 @@ const Intro = () => {
             <p>
                 Seasoned Software Engineer with over 14 years of experience building scalable enterprise software systems using the Java platform. Possesses strong hands-on experience in building cloud-native applications using technologies including Java, Spring Boot, Docker, Kubernetes, AWS, and SQL/NoSQL databases. Experienced in developing front-end applications using Angular and React. Proficient in agile methodologies, DevOps, and GitOps practices. A team player dedicated to personal and professional growth.
             </p>
-        </header>
+        </section>
     );
 };
 export default Intro;
