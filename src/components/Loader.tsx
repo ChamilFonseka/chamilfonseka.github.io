@@ -45,7 +45,7 @@ const Loader = ({ onLoadComplete }: LoaderProps) => {
     }, [onLoadComplete]);
 
     return (
-        <section>
+        <section className="grid place-items-center h-dvh">
             <span>{progress}%</span>
         </section>
     );
