@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Intro from "./components/Intro";
 import Loader from "./components/Loader";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Certifications from "./components/Certifications";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -14,7 +18,13 @@ function App() {
       {loading ? (
         <Loader onLoadComplete={handleLoadComplete} />
       ) : (
-        <Intro />
+        <>
+          <Intro />
+          <Skills />
+          <Experience />
+          <Education />
+          <Certifications />
+        </>
       )}
     </main>
   );
